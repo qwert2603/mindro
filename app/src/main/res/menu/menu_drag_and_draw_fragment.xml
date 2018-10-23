@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="@string/text_remove_last"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_change_figure"
+        android:icon="@drawable/triangle_1"
+        android:title="@string/text_choose_figure_type"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_choose_color"
+        android:icon="@drawable/palette"
+        android:title="@string/text_choose_color"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_save_boxes"
+        android:icon="@drawable/ic_save_24dp"
+        android:title="@string/text_save"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_24dp"
+        android:title="@string/text_share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_clear_figures"
+        android:icon="@drawable/ic_clear_24dp"
+        android:title="@string/text_clear_figures"
+        app:showAsAction="ifRoom" />
+
+</menu>

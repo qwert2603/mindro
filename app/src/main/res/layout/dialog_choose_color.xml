@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/choose_color_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp">
+
+            <RadioButton
+                android:id="@+id/radioButton0"
+                style="@style/RadioButtonStyle"
+                android:textColor="@color/clr0"
+                tools:text="string/text_red" />
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                style="@style/RadioButtonStyle"
+                android:textColor="@color/clr1"
+                tools:text="string/text_orange" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                style="@style/RadioButtonStyle"
+                android:textColor="@color/clr2"
+                tools:text="string/text_yellow" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                style="@style/RadioButtonStyle"
+                android:textColor="@color/clr3"
+                tools:text="string/text_greed" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                style="@style/RadioButtonStyle"
+                android:textColor="@color/clr4"
+                tools:text="string/text_blue" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                style="@style/RadioButtonStyle"
+                android:textColor="@color/clr5"
+                tools:text="string/text_dark_blue" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                style="@style/RadioButtonStyle"
+                android:textColor="@color/clr6"
+                tools:text="string/text_violet" />
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                style="@style/RadioButtonStyle"
+                android:textColor="@color/clr7"
+                tools:text="string/text_black" />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                style="@style/RadioButtonStyle"
+                android:background="@android:color/darker_gray"
+                android:textColor="@color/clr8"
+                tools:text="string/text_white" />
+        </RadioGroup>
+
+    </ScrollView>
+
+</LinearLayout>

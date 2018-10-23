@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">mindro</string>
+
+    <string name="text_clear_figures">Clear figures</string>
+    <string name="text_save">Save</string>
+    <string name="text_back">Back</string>
+    <string name="text_share">Share</string>
+    <string name="text_remove_last">Remove last</string>
+    <string name="text_choose_color">Choose color</string>
+    <string name="text_choose_figure_type">Choose figure type</string>
+    <string name="text_no_permission">No permission</string>
+    <string name="text_saved" formatted="true">Saved to %s</string>
+
+    <string-array name="array_colors">
+        <item name="text_red">Red</item>
+        <item name="text_orange">Orange</item>
+        <item name="text_yellow">Yellow</item>
+        <item name="text_greed">Green</item>
+        <item name="text_blue">Blue</item>
+        <item name="text_dark_blue">Dark Blue</item>
+        <item name="text_violet">Violet</item>
+        <item name="text_black">Black</item>
+        <item name="text_white">White</item>
+    </string-array>
+</resources>

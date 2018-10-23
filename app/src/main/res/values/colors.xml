@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6820</color>
+    <color name="colorPrimaryDark">#cf6820</color>
+    <color name="colorAccent">#ff6820</color>
+
+    <color name="clr0">#ff0000</color>
+    <color name="clr1">#ff6820</color>
+    <color name="clr2">#ffff00</color>
+    <color name="clr3">#00a000</color>
+    <color name="clr4">#009fff</color>
+    <color name="clr5">#0000ff</color>
+    <color name="clr6">#ff00ff</color>
+    <color name="clr7">#000000</color>
+    <color name="clr8">#ffffff</color>
+
+</resources>
