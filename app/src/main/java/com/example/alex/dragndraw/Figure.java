@@ -7,16 +7,16 @@ import java.io.Serializable;
 public class Figure implements Serializable {
 
     public enum FigureType {
-        FILL_RECT(R.drawable.fill_rect),
-        OVAL(R.drawable.oval),
-        LINE_4(R.drawable.line_4),
-        LINE_9(R.drawable.line_9),
-        LINE_14(R.drawable.line_14),
-        ROUND_RECT(R.drawable.round_rect),
-        FILL_TRIANGLE_1(R.drawable.fill_triangle_1),   // равнобедренный
-        FILL_TRIANGLE_2(R.drawable.fill_triangle_2),   // прямоугольный
-        RECT(R.drawable.rect),
-        TRIANGLE_1(R.drawable.triangle_1)
+        FILL_RECT(R.drawable.ic_fill_rect),
+        OVAL(R.drawable.ic_oval),
+        LINE_4(R.drawable.ic_line_4),
+        LINE_9(R.drawable.ic_line_9),
+        LINE_14(R.drawable.ic_line_14),
+        ROUND_RECT(R.drawable.ic_round_rect),
+        FILL_TRIANGLE_1(R.drawable.ic_fill_triangle_1),   // равнобедренный
+        FILL_TRIANGLE_2(R.drawable.ic_fill_triangle_2),   // прямоугольный
+        RECT(R.drawable.ic_rect),
+        TRIANGLE_1(R.drawable.ic_triangle_1)
         ;
 
         @DrawableRes private final int mIconId;

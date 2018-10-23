@@ -11,7 +11,7 @@
 
     <item
         android:id="@+id/action_change_figure"
-        android:icon="@drawable/triangle_1"
+        android:icon="@drawable/ic_triangle_1"
         android:title="@string/text_choose_figure_type"
         app:showAsAction="always" />
 
