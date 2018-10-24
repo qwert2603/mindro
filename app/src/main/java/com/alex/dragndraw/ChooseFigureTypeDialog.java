@@ -1,4 +1,4 @@
-package com.example.alex.dragndraw;
+package com.alex.dragndraw;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,7 +17,7 @@ import android.widget.ImageView;
 public class ChooseFigureTypeDialog extends DialogFragment {
 
     private static final String keyFigureType = "keyFigureType";
-    public static final String EXTRA_FIGURE_TYPE = "com.example.alex.dragndraw.FIGURE_TYPE";
+    public static final String EXTRA_FIGURE_TYPE = "com.alex.dragndraw.FIGURE_TYPE";
 
     private Figure.FigureType mFigureType;
 

@@ -1,4 +1,4 @@
-package com.example.alex.dragndraw;
+package com.alex.dragndraw;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class ChooseColorDialog extends DialogFragment {
 
-    public static final String EXTRA_COLOR = "com.example.alex.dragndraw.COLOR";
+    public static final String EXTRA_COLOR = "com.alex.dragndraw.COLOR";
     private static final String colorKey = "color";
 
     private View mView;

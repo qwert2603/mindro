@@ -1,4 +1,4 @@
-package com.example.alex.dragndraw;
+package com.alex.dragndraw;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

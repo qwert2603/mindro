@@ -1,4 +1,4 @@
-package com.example.alex.dragndraw;
+package com.alex.dragndraw;
 
 import android.app.Activity;
 import android.app.AlertDialog;
