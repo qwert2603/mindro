@@ -67,7 +67,7 @@ public class ChooseFigureTypeDialog extends DialogFragment {
 
     private class FigureTypeAdapter extends ArrayAdapter<Figure.FigureType> {
 
-        private Activity mActivity;
+        private final Activity mActivity;
 
         FigureTypeAdapter(Activity activity, Figure.FigureType[] figureTypes) {
             super(activity, 0, figureTypes);

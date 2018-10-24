@@ -22,7 +22,7 @@ public class FigureDrawingView extends View {
     private static final String colorNumberKey = "colorNumberKey";
     private static final String figureTypeKey = "figureTypeKey";
 
-    public static final int DEFAULT_COLOR = 0x3fff0000;
+    private static final int DEFAULT_COLOR = 0x3fff0000;
 
     private ArrayList<Figure> mFigures = new ArrayList<>();
 
@@ -40,8 +40,8 @@ public class FigureDrawingView extends View {
     private int mFirstPointerId = -1;
     private int mSecondPointerId = -1;
 
-    private Paint mFigurePaint;
-    private Paint mBackgroundPaint;
+    private final Paint mFigurePaint;
+    private final Paint mBackgroundPaint;
 
     public FigureDrawingView(Context context) {
         this(context, null);
